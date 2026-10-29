@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Keyboard Body Card Shadow -->
+    <path
+        android:fillColor="#15000000"
+        android:pathData="M24,38h60a10,10 0 0,1 10,10v26a10,10 0 0,1 -10,10h-60a10,10 0 0,1 -10,-10v-26a10,10 0 0,1 10,-10Z" />
+
+    <!-- Keyboard Main Surface Body -->
+    <path
+        android:fillColor="#1E293B"
+        android:strokeColor="#334155"
+        android:strokeWidth="1.2"
+        android:pathData="M24,36h60a10,10 0 0,1 10,10v26a10,10 0 0,1 -10,10h-60a10,10 0 0,1 -10,-10v-26a10,10 0 0,1 10,-10Z" />
+
+    <!-- Top Suggestion Strip Pills -->
+    <!-- Candidate 1 -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M28,40h14a2,2 0 0,1 2,2v1a2,2 0 0,1 -2,2h-14a2,2 0 0,1 -2,-2v-1a2,2 0 0,1 2,-2Z" />
+    <!-- Candidate 2 (Selected Active) -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M47,40h14a2,2 0 0,1 2,2v1a2,2 0 0,1 -2,2h-14a2,2 0 0,1 -2,-2v-1a2,2 0 0,1 2,-2Z" />
+    <!-- Candidate 3 -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M66,40h14a2,2 0 0,1 2,2v1a2,2 0 0,1 -2,2h-14a2,2 0 0,1 -2,-2v-1a2,2 0 0,1 2,-2Z" />
+
+    <!-- KEYCAPS GRID -->
+
+    <!-- Row 1 Keys -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M28,48h7a2,2 0 0,1 2,2v4a2,2 0 0,1 -2,2h-7a2,2 0 0,1 -2,-2v-4a2,2 0 0,1 2,-2Z" />
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M38,48h7a2,2 0 0,1 2,2v4a2,2 0 0,1 -2,2h-7a2,2 0 0,1 -2,-2v-4a2,2 0 0,1 2,-2Z" />
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M48,48h7a2,2 0 0,1 2,2v4a2,2 0 0,1 -2,2h-7a2,2 0 0,1 -2,-2v-4a2,2 0 0,1 2,-2Z" />
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M58,48h7a2,2 0 0,1 2,2v4a2,2 0 0,1 -2,2h-7a2,2 0 0,1 -2,-2v-4a2,2 0 0,1 2,-2Z" />
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M68,48h7a2,2 0 0,1 2,2v4a2,2 0 0,1 -2,2h-7a2,2 0 0,1 -2,-2v-4a2,2 0 0,1 2,-2Z" />
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M78,48h2a2,2 0 0,1 2,2v4a2,2 0 0,1 -2,2h-2a2,2 0 0,1 -2,-2v-4a2,2 0 0,1 2,-2Z" />
+
+    <!-- Row 2 Keys -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M31,57h7a2,2 0 0,1 2,2v4a2,2 0 0,1 -2,2h-7a2,2 0 0,1 -2,-2v-4a2,2 0 0,1 2,-2Z" />
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M41,57h7a2,2 0 0,1 2,2v4a2,2 0 0,1 -2,2h-7a2,2 0 0,1 -2,-2v-4a2,2 0 0,1 2,-2Z" />
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M51,57h7a2,2 0 0,1 2,2v4a2,2 0 0,1 -2,2h-7a2,2 0 0,1 -2,-2v-4a2,2 0 0,1 2,-2Z" />
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M61,57h7a2,2 0 0,1 2,2v4a2,2 0 0,1 -2,2h-7a2,2 0 0,1 -2,-2v-4a2,2 0 0,1 2,-2Z" />
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M71,57h7a2,2 0 0,1 2,2v4a2,2 0 0,1 -2,2h-7a2,2 0 0,1 -2,-2v-4a2,2 0 0,1 2,-2Z" />
+
+    <!-- Row 3 Keys (Bottom Control Row) -->
+    <!-- Special Key 1 (Shift) -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M28,66h8a2,2 0 0,1 2,2v4a2,2 0 0,1 -2,2h-8a2,2 0 0,1 -2,-2v-4a2,2 0 0,1 2,-2Z" />
+
+    <!-- Spacebar (Blue Accent) -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M41,66h26a2,2 0 0,1 2,2v4a2,2 0 0,1 -2,2h-26a2,2 0 0,1 -2,-2v-4a2,2 0 0,1 2,-2Z" />
+
+    <!-- Action Key / Enter -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M70,66h10a2,2 0 0,1 2,2v4a2,2 0 0,1 -2,2h-10a2,2 0 0,1 -2,-2v-4a2,2 0 0,1 2,-2Z" />
+
+    <!-- FLOATING KEYPRESS POPUP BUBBLE (GBOARD STYLE) -->
+    <!-- Shadow -->
+    <path
+        android:fillColor="#20000000"
+        android:pathData="M45,20h18a5,5 0 0,1 5,5v14a5,5 0 0,1 -5,5h-18a5,5 0 0,1 -5,-5v-14a5,5 0 0,1 5,-5Z" />
+    <!-- Popup Body -->
+    <path
+        android:fillColor="#2563EB"
+        android:strokeColor="#60A5FA"
+        android:strokeWidth="1.2"
+        android:pathData="M45,18h18a5,5 0 0,1 5,5v14a5,5 0 0,1 -5,5h-18a5,5 0 0,1 -5,-5v-14a5,5 0 0,1 5,-5Z" />
+
+    <!-- Letter "K" or Keyboard Key Icon on Popup -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,24h2.5v4.5l4,-4.5h3.2l-4.5,5l4.8,6h-3.2l-3.8,-4.8l-0.5,0.6v4.2h-2.5Z" />
+
+</vector>

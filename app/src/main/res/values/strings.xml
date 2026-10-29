@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Offline Keyboard</string>
+    <string name="subtype_tr">Türkçe (Q)</string>
+    <string name="keyboard_service_name">Offline Modern Keyboard</string>
+</resources>
