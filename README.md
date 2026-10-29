@@ -1,5 +1,7 @@
 # Offline Keyboard
 
+**English** · [Türkçe](README.tr.md)
+
 A fully offline, open-source Android keyboard (IME) written in Kotlin with Jetpack Compose. No network permission, no telemetry, no accounts — typing stays on the device.
 
 ![Platform](https://img.shields.io/badge/platform-Android-3DDC84)
@@ -17,6 +19,12 @@ A fully offline, open-source Android keyboard (IME) written in Kotlin with Jetpa
 - **5 themes** — System, Light, Dark, Gboard Blue (default), Pitch Black.
 - **Haptics and key sound**, both toggleable, plus number-row and suggestion switches.
 - **Setup app** — a Compose screen with an in-app test field to try the keyboard immediately, a theme picker, and behavior toggles.
+
+## Download
+
+Prebuilt APKs are attached to every [release](https://github.com/nixoslinuxb/keyboard/releases). Pushing a `v*` tag (or running the **Build APK** workflow manually from the Actions tab) builds and publishes one.
+
+> The published APK is a **debug-signed** build: it installs on any device that allows sideloading, but it cannot be updated over an app signed with your own release key.
 
 ## Requirements
 
@@ -82,3 +90,7 @@ The app declares a single permission, `VIBRATE`. There is no `INTERNET` permissi
 ## License
 
 [MIT](LICENSE)
+
+## Continuous integration
+
+`.github/workflows/release.yml` builds the APK on GitHub Actions: it provisions JDK 25 and the Android SDK, runs `./gradlew assembleDebug`, uploads the APK as a workflow artifact on every run, and attaches it to a GitHub Release when a `v*` tag is pushed.
